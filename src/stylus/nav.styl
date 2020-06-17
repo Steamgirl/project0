@@ -1,0 +1,109 @@
+.box {
+   // width 1920px
+   // height 100%
+   margin: 0;
+   padding: 0;
+   list-style: none;
+
+   .celect {
+      border-bottom: 2px solid #333;
+      background: #fff;
+   }
+
+   .header-top {
+      width: 100%;
+      margin: auto;
+      height: 48px;
+      line-height: 48px;
+      background: #40916C;
+
+      .header-row-left {
+         display: flex;
+
+         .header-row-he {
+            width: 20px;
+            height: 20px;
+            background: #eee;
+            line-height: 20px;
+            position: relative;
+            top: 15px;
+            text-align: center;
+         }
+
+         .header-row-font {
+            margin-left: 10px;
+         }
+      }
+
+      .header-row-right {
+         display: flex;
+
+         div {
+            flex: 1;
+            color: #fff;
+            text-align: center;
+
+            a {
+               color: #fff;
+            }
+         }
+      }
+   }
+
+   .header-bottom {
+      width: 100%;
+      height: 90px;
+      margin: auto;
+      background: #F6F6F6;
+      line-height: 90px;
+      display: flex;
+      position: relative;
+
+      .header-bottom-right {
+         width: 94%;
+         height: 100%;
+         position: relative;
+
+         .header-top-list {
+            div {
+               width: 190px;
+               height: 55px;
+               text-align: center;
+               line-height: 55px;
+               background: #5C5C5C;
+               margin: 18px 14px;
+            }
+         }
+
+         .header-bottom-list {
+            display: flex;
+
+            .header-a {
+               .cerlect {
+                  border: 1px solid red;
+
+               }
+            }
+         }
+      }
+   }
+
+   .header-bottom-left {
+      position: absolute;
+      right: 0;
+      width: 6%;
+      height: 90px;
+      background: #4E4E4E;
+
+      .bootom-left-he {
+         width: 20px;
+         height: 20px;
+         position: absolute;
+         top: 0;
+         bottom: 0;
+         left: 0;
+         right: 0;
+         margin: auto;
+      }
+   }
+}
